@@ -12,6 +12,7 @@ body {
 
 img {
   max-width: 100%;
+  aspect-ratio: 5/3;
 }
 header {
   background-image:
@@ -91,9 +92,13 @@ main p {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+.secondary {
+  background-color: #f8f8f8;
 }
 
 footer {
@@ -142,6 +147,57 @@ footer a {
 
 .grid-3-col {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-3-col-e {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+
+.card-header {
+  max-height: 100%;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 30px;
+}
+
+.card h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+.card h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+.button {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #272044;
+  text-decoration: none;
 }
 
 @media (max-width: 960px) {
